@@ -3,6 +3,5 @@
 function logDriverNames(driver_obj){
     for(const attr of driver_obj){
       console.log(attr)
-        console.log(driver_obj["name"])
     }
 }
