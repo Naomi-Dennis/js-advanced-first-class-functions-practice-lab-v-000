@@ -5,6 +5,6 @@ function logDriverNames(a_drivers){
 
 function logDriversByHometown(a_drivers, hometown){
     for(const driver of a_drivers){
-       console.log(hometown, (driver["hometown"] == hometown) ? driver["name"] : "" )
+       console.log((driver["hometown"] == hometown) ? driver["name"] : "" )
     }
 }
