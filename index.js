@@ -19,3 +19,6 @@ function driversByName(a_drivers){
 function totalRevenue(a_drivers){
   return a_drivers.reduce( (sum, obj) => { return sum += obj["revenue"]}, 0 )
 }
+function averageRevenue(a_drivers){
+  
+}
