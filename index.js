@@ -5,3 +5,7 @@ function logDriverNames(driver_obj){
         console.log(attr["name"])
     }
 }
+
+function driversByRevenue(){
+  
+}
