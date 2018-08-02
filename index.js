@@ -1,11 +1,8 @@
 // Code your solution in this file!
 
-function logDriverNames(drivers){
-    for(const attr of drivers){
-        console.log(attr["name"])
-    }
+function logDriverNames(a_drivers){
+    a_drivers.map( (value) => { console.log(a_drivers["name"])s } )
 }
 
-function driversByRevenue(drivers){
-  
+function driversByRevenue(a_drivers){
 }
