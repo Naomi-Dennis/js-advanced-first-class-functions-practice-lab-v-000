@@ -17,5 +17,5 @@ function driversByName(a_drivers){
     return arr.sort( (a,b) => { return (a["name"] < b["name"]) ? -1 : ((a["name"] > b["name"]) ? 1 : 0 )  }  )
 }
 function totalRevenue(a_drivers){
-  return a_driver.reduce( (sum, obj) => {return sum += obj["revenue"]} )
+  return a_drivers.reduce( (sum, obj) => {return sum += obj["revenue"]} )
 }
