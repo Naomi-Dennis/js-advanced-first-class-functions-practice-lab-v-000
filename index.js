@@ -9,5 +9,5 @@ function logDriversByHometown(a_drivers, hometown){
     }
 }
 function driversByRevenue(a_drivers){
-  return a_drivers.sort( (a,b) => { return (a < b) ? 1 : ((a > b) ? -1 : 0 )  }  )
+  return a_drivers.sort( (a,b) => { return (a["revenue"] < b["revenue"]) ? 1 : ((a["revenue"] > b["revenue"]) ? -1 : 0 )  }  )
 }
