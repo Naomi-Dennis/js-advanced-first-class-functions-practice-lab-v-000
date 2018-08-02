@@ -8,6 +8,6 @@ function logDriversByHometown(a_drivers, hometown){
        console.log((driver["hometown"] == hometown) ? driver["name"] : "" )
     }
 }
-function driversByRevenue(){
-  
+function driversByRevenue(a_drivers){
+  a_drivers.sort( (a,b) => { return (a < b) ? -1 : ((a > b) ? 1 : 0 )  }  )
 }
