@@ -8,3 +8,6 @@ function logDriversByHometown(a_drivers, hometown){
        console.log((driver["hometown"] == hometown) ? driver["name"] : "" )
     }
 }
+function driversByRevenue(){
+  
+}
