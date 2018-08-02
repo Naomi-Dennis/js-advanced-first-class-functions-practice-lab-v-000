@@ -5,4 +5,5 @@ function logDriverNames(a_drivers){
 }
 
 function driversByRevenue(a_drivers){
+  a_drivers.map( (value) => { console.log(value["name"]) } )
 }
