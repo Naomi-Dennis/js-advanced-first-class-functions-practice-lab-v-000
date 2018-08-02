@@ -3,6 +3,8 @@ function logDriverNames(a_drivers){
     a_drivers.map( (value) => { console.log(value[key]) } )
 }
 
-function driversByRevenue(a_drivers){
-    view_all_property(a_drivers, "hometown")
+function driversByRevenue(a_drivers, hometown){
+    for(const driver in a_drivers){
+       (driver["hometown"] == hometown) ? driver["name"] : ""
+    }
 }
