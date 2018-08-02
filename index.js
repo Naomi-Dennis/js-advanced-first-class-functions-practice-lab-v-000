@@ -1,11 +1,11 @@
 // Code your solution in this file!
 
-function logDriverNames(driver_obj){
-    for(const attr of driver_obj){
+function logDriverNames(drivers){
+    for(const attr of drivers){
         console.log(attr["name"])
     }
 }
 
-function driversByRevenue(){
+function driversByRevenue(drivers){
   
 }
