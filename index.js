@@ -9,5 +9,6 @@ function logDriversByHometown(a_drivers, hometown){
     }
 }
 function driversByRevenue(a_drivers){
+  let arr = Object.assign([], a_drivers)
   return a_drivers.sort( (a,b) => { return (a["revenue"] < b["revenue"]) ? -1 : ((a["revenue"] > b["revenue"]) ? 1 : 0 )  }  )
 }
