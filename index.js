@@ -7,5 +7,5 @@ function logDriverNames(a_drivers){
 }
 
 function driversByRevenue(a_drivers){
-  a_drivers.map( (value) => { console.log(value["name"]) } )
+    view_all_property(a_drivers, "revenue")
 }
